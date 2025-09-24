@@ -83,6 +83,11 @@ console.log(a<=b);
 
 //9. Crea una variable pcon un operador lógico y muestra su resultado en la consola.(AND y OR)
 
+let c = 10;
+let d = 5;
+console.log(a>3 && b<10);
+console.log(!(a>3 || b<5));
+
 //10. Crea una variable con un operador ternario y muestra su resultado en la consola.
 
 //11. Concatena dos cadenas de texto y muestra el resultado en la consola.
