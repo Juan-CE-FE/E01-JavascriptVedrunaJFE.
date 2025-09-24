@@ -42,6 +42,13 @@ console.log(nulo1);
 
 //6. Crea una variable para cada operador aritmetico y muestra su resultado en la consola.
 
+let suma = 5 + 7;
+console.log(suma);
+let resta = 10 - 3;
+let division = 20 / 4;
+console.log(division);
+let multiplicacion = 6 * 3;
+
 //7. Crea una variable para cada operador de asignacion y muestra su resultado en la consola.
 
 //8. Crea una variable para cada operador de comparacion y muestra su resultado en la consola.
