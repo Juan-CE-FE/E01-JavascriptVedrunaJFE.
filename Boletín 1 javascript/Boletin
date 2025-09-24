@@ -90,7 +90,15 @@ console.log(!(a>3 || b<5));
 
 //10. Crea una variable con un operador ternario y muestra su resultado en la consola.
 
+let num = 7;
+let resultado=num? "Es mayor de edad":"Es menor de edad";
+console.log(resultado);
+
 //11. Concatena dos cadenas de texto y muestra el resultado en la consola.
+
+let cad1 = "Esta es la primera parte del mensaje, ";
+let cad2 = "esta es la segunda parte del mensaje";
+console.log(cad1 + cad2);
 
 //12. Transforma una cadena de texto en mayúsculas y muestra el resultado en la consola.
 
