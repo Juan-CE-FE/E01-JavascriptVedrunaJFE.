@@ -45,11 +45,28 @@ console.log(nulo1);
 let suma = 5 + 7;
 console.log(suma);
 let resta = 10 - 3;
+console.log(resta);
 let division = 20 / 4;
 console.log(division);
 let multiplicacion = 6 * 3;
+console.log(multiplicacion);
+let modulo = 10 % 3;
+console.log(modulo);
 
 //7. Crea una variable para cada operador de asignacion y muestra su resultado en la consola.
+
+let variable1 = 10;
+console.log(variable1);
+variable1 += 5;
+console.log(variable1);
+variable1 -= 3;
+console.log(variable1);
+variable1 *= 2;
+console.log(variable1);
+variable1 /= 4;
+console.log(variable1);
+variable1 %= 3;
+console.log(variable1);
 
 //8. Crea una variable para cada operador de comparacion y muestra su resultado en la consola.
 
