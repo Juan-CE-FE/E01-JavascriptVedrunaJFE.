@@ -31,6 +31,15 @@ console.log(booleano);
 
 //5. Declara constantes con valores asociados a todos los tipos de datos y imprimelos en la consola.
 
+const texto1 = "Constante";
+console.log(texto1);
+const numero1 = 25;
+console.log(numero1);
+const booleano1 = false;
+console.log(booleano1);
+const nulo1 = null;
+console.log(nulo1);
+
 //6. Crea una variable para cada operador aritmetico y muestra su resultado en la consola.
 
 //7. Crea una variable para cada operador de asignacion y muestra su resultado en la consola.
