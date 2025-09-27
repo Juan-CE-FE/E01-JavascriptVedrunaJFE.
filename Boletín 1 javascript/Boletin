@@ -195,11 +195,24 @@ switch (mes1) {
 
 //22. Crea un listado que almacene cinco elementos.
 
+let array = [1, 2, 3, 4, 5];
+console.log(array);
+
 //23. A ese listado incluye uno al principio y uno al final.
+
+array.unshift(0);
+array.push(6);
+console.log(array);
 
 //24. Elimina el último elemento del listado.
 
+array.pop();
+console.log(array);
+
 //24. Crea un Set que guarde cinco elementos.
+
+let arr2 = new Set([1, 2, 3, 4, 5]);
+console.log(arr2);
 
 //26.Crea un mapa que como clave tenga un numero y como valor el mes.
 
