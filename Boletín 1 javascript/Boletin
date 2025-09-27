@@ -102,6 +102,9 @@ console.log(cad1 + cad2);
 
 //12. Transforma una cadena de texto en mayúsculas y muestra el resultado en la consola.
 
+let mensaje = "Hola, esto es un mensaje que se  a cnvertira en mayusculas";
+console.log(mensaje.toUpperCase());
+
 //13. Muestra la longitud de una cadena de texto en la consola.
 
 //14. Remplaza un el espacio de una cadena por un guión y muestra el resultado en la consola.
