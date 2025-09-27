@@ -216,9 +216,35 @@ console.log(arr2);
 
 //26.Crea un mapa que como clave tenga un numero y como valor el mes.
 
+let map = new Map([
+    [1, 'Enero'],
+    [2, 'Febrero'], 
+    [3, 'Marzo'],
+    [4, 'Abril'],
+    [5, 'Mayo']
+]);
+console.log(map);
+
 //27. Crea un bucle que imprima numero del 1 al 10
 
+for(let i = 0; i <= 10; i++) {
+    console.log(i);
+}
+
 //28. Crea un bucle que cuente las vocales de una cadena de texto
+
+let mensaje4 = "Hola, esto es un mensaje con vocales";
+let contador = 0;
+let vocales = "aeiouAEIOU";
+
+for (let i = 0; i < mensaje4.length; i++) {
+  if (vocales.includes(mensaje4[i])) {
+    contador++;
+  }
+}
+
+console.log("Número de vocales:", contador);
+
 
 //29. Usa un bucle para invertir una cadena de texto
 
