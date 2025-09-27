@@ -139,6 +139,14 @@ if (nombre) {
 
 //19. Imprime acceso permitido si un variable nombre y su contraseña son correctos
 
+let usuario = "Juan";
+let contrasena = "12345";
+if (usuario === "Juan" && contrasena === "12345") {
+    console.log("Acceso permitido");
+} else {
+    console.log("Acceso denegado");
+}
+
 //20. Imprime en que estacion del año estamos a partir de una variable que indique el mes
 
 //21. Usa switch rehaciendo el ejercicio 20
