@@ -125,7 +125,17 @@ if (frase.includes('futbolista')) {
 
 //17. Investiga algun metodo mas utilizado con String y muestra el resultado en la consola.
 
+let mensaje3 = "    Este mensaje ya no tiene espacios al inicio ni al final gracias a el método trim()    ";
+console.log(mensaje3.trim());
+
 //18. Imprime tu nombre si una varibale tiene su valor
+
+let nombre = "Juan";
+if (nombre) {
+    console.log(nombre);
+} else {
+    console.log("La variable nombre no tiene valor");
+}
 
 //19. Imprime acceso permitido si un variable nombre y su contraseña son correctos
 
