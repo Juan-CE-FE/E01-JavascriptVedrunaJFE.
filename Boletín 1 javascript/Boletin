@@ -114,8 +114,14 @@ console.log("El mensaje1 tiene " + mensaje1.length + " caracteres");
 let mensaje2 = "Hola, esto es un mensaje con espacios";
 console.log(mensaje2.replaceAll(' ', '-'));
 
-
 //15. Comprueba si un String contiene una palabra en concreto y muestra el resultado en la consola.
+
+let frase = "Comprobando si esta la palabra futbolista en esta frase";
+if (frase.includes('futbolista')) {
+    console.log("La palabra futbolista está en la frase");
+} else {
+    console.log("La palabra futbolista no está en la frase");
+}
 
 //17. Investiga algun metodo mas utilizado con String y muestra el resultado en la consola.
 
