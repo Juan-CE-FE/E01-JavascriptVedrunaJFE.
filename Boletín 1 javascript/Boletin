@@ -264,4 +264,25 @@ console.log(sumar(5, 10));
 
 //31. Crea una funcion que reciba un Array de Strings y devuelve un nuevo array solo con las letras mayusculas del Array original
 
+function extraerMayusculas(arrayStrings) {
+  let resultado = [];
+
+  for (let palabra of arrayStrings) {
+    for (let letra of palabra) {
+      if (letra === letra.toUpperCase() && letra !== letra.toLowerCase()) {
+        resultado.push(letra);
+      }
+    }
+  }
+
+  return resultado;
+}
+
+
+let palabras = ["Hola", "EstE", "MENSaJe", "TIENE", "Mayusculas", "y", "MINUSCULAS"];
+console.log(extraerMayusculas(palabras));
+
+
+
+
 //32. Crea una funcion que reciba un String y devuelva la candena al reves
