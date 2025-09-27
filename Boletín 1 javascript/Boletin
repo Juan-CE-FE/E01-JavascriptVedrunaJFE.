@@ -149,6 +149,21 @@ if (usuario === "Juan" && contrasena === "12345") {
 
 //20. Imprime en que estacion del año estamos a partir de una variable que indique el mes
 
+let mes = 4;
+
+if (mes === 12 || mes === 1 || mes === 2) {
+    console.log("Estamos en invierno");
+} else if (mes >= 3 && mes <= 5) {
+    console.log("Estamos en primavera");
+} else if (mes >= 6 && mes <= 8) {
+    console.log("Estamos en verano");
+} else if (mes >= 9 && mes <= 11) {
+    console.log("Estamos en otoño");
+} else {
+    console.log("Solo hay 12 meses");
+}
+
+
 //21. Usa switch rehaciendo el ejercicio 20
 
 //22. Crea un listado que almacene cinco elementos.
