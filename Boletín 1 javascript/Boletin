@@ -107,6 +107,8 @@ console.log(mensaje.toUpperCase());
 
 //13. Muestra la longitud de una cadena de texto en la consola.
 
+let mensaje1 = "Hola, esto es un mensaje";
+console.log("El mensaje1 tiene " + mensaje1.length + " caracteres");
 //14. Remplaza un el espacio de una cadena por un guión y muestra el resultado en la consola.
 
 //15. Comprueba si un String contiene una palabra en concreto y muestra el resultado en la consola.
