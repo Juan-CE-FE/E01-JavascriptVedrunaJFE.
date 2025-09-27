@@ -248,7 +248,19 @@ console.log("Número de vocales:", contador);
 
 //29. Usa un bucle para invertir una cadena de texto
 
+let mensaje5 = "Hola, esto es un mensaje para invertir";
+let mensajeInvertido = "";
+for (let i = mensaje5.length - 1; i >= 0; i--) {
+    mensajeInvertido += mensaje5[i];
+}
+console.log(mensajeInvertido);
+
 //30. Crea un funcion que reciba dos numeros y los sume
+
+function sumar(num1, num2) {
+    return num1 + num2;
+}
+console.log(sumar(5, 10));
 
 //31. Crea una funcion que reciba un Array de Strings y devuelve un nuevo array solo con las letras mayusculas del Array original
 
